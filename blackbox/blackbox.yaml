@@ -1,0 +1,7 @@
+modules:
+  http_4xx:
+    prober: http
+    http:
+      preferred_ip_protocol: ip4
+      valid_status_codes: [404,403]
+      method: GET
